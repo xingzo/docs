@@ -1,78 +1,72 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Afro Extended Support",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.svg",
+    "light": "/logo/logo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#F97535",
+    "light": "#F2A528",
+    "dark": "#F97535",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#F97535",
+      "to": "#F2A528"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@afroextended.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Home",
+    "url": "https://afro-extended-v2.vercel.app"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "FAQ",
       "url": "api-reference"
     }
   ],
+  "primaryTab": {
+    "name": "Afro Extended Support"
+  },
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "discord",
+      "url": "https://afro-extended-v2.vercel.app/discord"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
+      "group": "Memberships",
+      "pages": ["memberships/how-do-memberships-work"]
+    },
+    {
+      "group": "Credits",
+      "pages": ["credits/how-credits-work"]
+    },
+    {
+      "group": "Downloads",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "downloads/library",
+        "downloads/guidelines",
+        "downloads/troubleshooting",
+        "downloads/support"
       ]
     },
+
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
