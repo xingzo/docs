@@ -44,7 +44,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "about/about-us", "about/why-choose-us"]
     },
     {
       "group": "Memberships",
@@ -63,18 +63,13 @@
         "downloads/support"
       ]
     },
-
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Cart System",
+      "pages": ["cart/overview", "cart/management"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Crate System",
+      "pages": ["crate/overview", "crate/management"]
     }
   ],
   "footerSocials": {
