@@ -65,11 +65,21 @@
     },
     {
       "group": "Cart System",
-      "pages": ["cart/overview", "cart/management"]
+      "pages": ["cart/overview"]
     },
     {
       "group": "Crate System",
-      "pages": ["crate/overview", "crate/management"]
+      "pages": ["crate/overview"]
+    },
+    {
+      "group": "User Management",
+      "pages": [
+        "user-management/overview",
+        "user-management/profile",
+        "user-management/security",
+        "user-management/subscription",
+        "user-management/account-deletion"
+      ]
     }
   ],
   "footerSocials": {
