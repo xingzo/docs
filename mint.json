@@ -55,6 +55,10 @@
       "pages": ["credits/how-credits-work"]
     },
     {
+      "group": "Crate System",
+      "pages": ["crate/overview"]
+    },
+    {
       "group": "Downloads",
       "pages": [
         "downloads/library",
@@ -67,10 +71,7 @@
       "group": "Cart System",
       "pages": ["cart/overview"]
     },
-    {
-      "group": "Crate System",
-      "pages": ["crate/overview"]
-    },
+
     {
       "group": "User Management",
       "pages": [
